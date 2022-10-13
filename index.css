@@ -25,16 +25,16 @@
   resize: vertical;
 }
 
-.form-input button{
+#button{
   background-color: black;
   color: beige;
   border-radius: 15px;
   cursor: pointer;
 }
 
-.form-input button:hover{
+#button:hover{
   background-color: azure;
-  border: 2px solid azure;
+  border: 1px solid azure;
   color: black;
 }
 

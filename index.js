@@ -12,11 +12,16 @@ function addRow(){
 
   var cel1 = row.insertCell(0);
   var cel2 = row.insertCell(1);
-  var cel3 = row.insertCell(2)
+  var cel3 = row.insertCell(2);
+  var cel4 = row.insertCell(3);
   cel1.innerHTML = n;
   cel2.innerHTML = list1[x];
   cel3.innerHTML = list2[x];
-
+    
   n++;
   x++;
+}
+
+function delRow(){
+  document.getElementById("formTable").deleteRow(1);
 }

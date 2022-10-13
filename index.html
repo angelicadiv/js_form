@@ -17,8 +17,13 @@
         <input type="number" id="nim" name="nim" placeholder="Masukkan NIM">
         <label for="nama">Nama : </label>
         <input type="text" id="nama" name="nama" placeholder="Masukkan Nama">
-        <button type="button" id="button" onclick="addRow()">Submit</button>
+        <input type="button" value="Submit" id="button" onclick="addRow()">
       </form>
+    </div>
+
+    <div class="action">
+      <input type="button" value="Edit" id="editBtn" onclick="editRow(no)">
+      <input type="button" value="Delete" id="deleteBtn" onclick="delRow()">
     </div>
 
     <div class="form-table">
